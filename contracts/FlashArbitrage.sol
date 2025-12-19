@@ -5,5 +5,3 @@ import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 import "./interfaces/IUniswapV2Pair.sol";
 
 contract FlashArbitrage {
-    // Uniswap call back function
-    function uni
