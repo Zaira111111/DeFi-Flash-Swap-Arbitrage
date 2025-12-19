@@ -6,4 +6,4 @@ import "./interfaces/IUniswapV2Pair.sol";
 
 contract FlashArbitrage {
     // Uniswap call back function
-    function uniswapV2Call(address sender, uint amount0, uint amount1, bytes cal
+    function uniswapV2Call(address sender, uint amount0, u
