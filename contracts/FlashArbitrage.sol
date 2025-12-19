@@ -15,4 +15,4 @@ contract FlashArbitrage {
 
     function startArbitrage(address pairAddress, uint amountToBorrow) external {
         // Trigger Flash
-        IUniswapV2Pair(pairAddress).sw
+        IUniswapV2Pair(pairAddress)
