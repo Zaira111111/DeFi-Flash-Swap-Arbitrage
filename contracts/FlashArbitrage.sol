@@ -11,5 +11,4 @@ contract FlashArbitrage {
         // 2. Logic to Swap on Sushiswap
         // 3. Logic to check Profit
         // 4. Repay Uniswa
-    function startArbitrage(address pairAddress, uint amountToBorrow) external {
-        // Trig
+    function startArbitrage(address pairAddress, uint amountToBorrow) extern
