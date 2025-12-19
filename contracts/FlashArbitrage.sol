@@ -17,4 +17,3 @@ contract FlashArbitrage {
         // Trigger Flash Swap
         IUniswapV2Pair(pairAddress).swap(amountToBorrow, 0, address(this), new bytes(1));
     }
-}
