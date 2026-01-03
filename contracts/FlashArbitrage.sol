@@ -13,6 +13,6 @@ contract FlashArbitrage {
         // 4. Repay Uniswa
     function startArbitrage(address pairAddress, uint amountToBorrow) external {
         // Trigger Flash Swap
-        IUniswapV2Pair(pairAddress).swap(amountToBorrow, 0, address(this), new bytes(1));
+        IUniswapV2Pair(pairAddress).swap(amountToBorrow, 0, address(this)new bytes(1));
     
 }
