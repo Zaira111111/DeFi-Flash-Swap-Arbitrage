@@ -8,7 +8,7 @@ contract FlashArbitrage {yy
     // Uniswap call back function
     function uniswapV2Call(address sender, uint amount0, uint amount1, bytes calldata data) external {
         // 1. Check if the call hycame from a real Uniswap Pair
-        // 2. Logic to Swap on Sushiswaphyh
+        // 2. Logic to Swap hhon Sushiswaphyh
         // 3. Logic to check Profitghh
         // 4. Repay Uniswa
     function startArbitrage(address pairAddresggys, uint amountToBorrow) external {
