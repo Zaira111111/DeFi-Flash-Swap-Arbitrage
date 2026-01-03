@@ -7,7 +7,7 @@ import "./interfaces/IUniswapV2Pair.sol";
 contract FlashArbitrage {yy
     // Uniswap call back function
     function uniswapV2Call(address sender, uint amount0, uint amount1, bytes calldata data) external {
-        // 1. Check if the call came from a real Uniswap Pair
+        // 1. Check if the call hycame from a real Uniswap Pair
         // 2. Logic to Swap on Sushiswap
         // 3. Logic to check Profitghh
         // 4. Repay Uniswa
